@@ -3,10 +3,10 @@ terraform {
     aws = {
       version = "~> 2.13.0"
     }
-    ramdom = {
+    random = {
       version = ">= 2.1.2"
     }
   }
 
-  required_version = "~> 0.12.29"
+  required_version = "~> 1.4.6"
 }
